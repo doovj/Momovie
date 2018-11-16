@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Favoritq</string>
+    <string name="detail">Detail</string>
+    <string name="share">Share</string>
+    <string name="title_movie">Title</string>
+    <string name="deskripsi_movie">Overview</string>
+    <string name="tanggal_rilis_movie">Release date</string>
+    <string name="rating_movie">Rating</string>
+    <string name="from">dari</string>
+    <string name="voters">voters</string>
+</resources>

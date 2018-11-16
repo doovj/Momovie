@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menucari"
+        android:title="@string/cari"
+        android:icon = "@drawable/baseline_search_white_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menugantibahasa"
+        android:title="@string/ganti_bahasa"
+        android:icon="@drawable/baseline_language_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menunotif"
+        android:title="@string/notif"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Momovie</string>
+    <string name="cari">Search</string>
+    <string name="masukan_nama_film">Enter the name of the movie</string>
+    <string name="deskripsi_movie">Description</string>
+    <string name="title_movie">Title</string>
+    <string name="tanggal_rilis_movie">Release date</string>
+    <string name="rating_movie">Rating</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detail">Detail</string>
+    <string name="share">Share</string>
+    <string name="tabupcoming_movies">Upcoming</string>
+    <string name="tabnow_playing">Now Playing</string>
+    <string name="ganti_bahasa">Change language</string>
+    <string name="from">from</string>
+    <string name="voters">voters</string>
+    <string name="tabfavorit_movies">Favorite</string>
+
+    <string-array name="pager">
+        <item>@string/tabnow_playing</item>
+        <item>@string/tabupcoming_movies</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">Empty</string>
+    <string name="notif">Notification</string>
+    <string name="daily_reminder">Daily reminder</string>
+    <string name="release_today">Release today</string>
+</resources>

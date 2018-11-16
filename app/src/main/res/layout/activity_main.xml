@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/activity_margin_horizontal"
+    android:paddingLeft="@dimen/activity_margin_horizontal"
+    android:paddingTop="@dimen/activity_margin_vertical"
+    android:paddingBottom="@dimen/activity_margin_vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/linear_layout">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_cari"
+            android:layout_weight="0.9"
+            android:hint="@string/masukan_nama_film"
+            android:layout_marginTop="@dimen/activity_margin_vertical"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cari"
+            android:text="@string/cari"
+            android:layout_weight="0.1"
+            android:layout_marginTop="@dimen/activity_margin_vertical"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear_layout"
+        android:layout_marginTop="@dimen/activity_margin_vertical"
+        android:id="@+id/lv_movie" />
+
+</RelativeLayout>
